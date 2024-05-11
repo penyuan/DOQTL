@@ -539,7 +539,7 @@ read.muga.data = function(array = c("gigamuga", "megamuga", "muga"),
       codefile = "ftp://ftp.jax.org/MUGA/MM_hs_code.Rdata"
     } # if(sampletype == "HS")
   } else if(array == "gigamuga") {
-    snpfile  = "ftp://ftp.jax.org/MUGA/GM_snps.Rdata"
+    snpfile  = "GM_snps.Rdata"
     sexfile  = "ftp://ftp.jax.org/MUGA/GM_sex.Rdata"
     codefile = "ftp://ftp.jax.org/MUGA/GM_code.Rdata"
     xfile    = "ftp://ftp.jax.org/MUGA/GM_x.Rdata"
