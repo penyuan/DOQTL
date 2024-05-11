@@ -612,7 +612,7 @@ read.muga.data = function(array = c("gigamuga", "megamuga", "muga"),
     # genotyping.
     # We have to put this line in to satisfy R CMD build --as-cran
     GM_snps = NULL
-    load(url(snpfile))
+    load(snpfile)
     snps = GM_snps
     # We have to put this line in to satisfy R CMD build --as-cran
     GM_sex  = NULL
